@@ -13,7 +13,7 @@ public enum DBConnection {
             "useSSL=false&useJDBCCompliantTimezoneShift=" +
             "true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     public final static String USER="root";
-    public final static String PASS="kkeczap";
+    public final static String PASS="";
 
     public static Connection setJdbcConnection () {
         Connection connection = null;
